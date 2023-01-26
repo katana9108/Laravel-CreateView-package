@@ -33,6 +33,9 @@ This is the contents of the published config file:
 
 ```php
 return [
+    'test'=>[
+        'disabled'=>true,
+    ]
 ];
 ```
 ## Usage
