@@ -39,10 +39,10 @@ return [
 ```
 ## Usage
 
-```php
-$createViewPackage = new Katana9108\CreateViewPackage();
-echo $createViewPackage->echoPhrase('Hello, Katana9108!');
 ```
+To create a view run : php artisan katana9108:create-view {viewname}                   
+```
+
 
 ## Testing
 
