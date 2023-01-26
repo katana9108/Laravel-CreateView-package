@@ -5,8 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/katana9108/createview-package/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/katana9108/createview-package/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/katana9108/createview-package.svg?style=flat-square)](https://packagist.org/packages/katana9108/createview-package)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
-
+A small laravel package allowing to create views from the terminal. Requires a version of php 8 and Laravel 9.
 ## Support us
 
 [<img src="https://github-ads.s3.eu-central-1.amazonaws.com/CreateView-package.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/CreateView-package)
