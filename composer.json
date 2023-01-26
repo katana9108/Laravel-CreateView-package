@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "katana9108/createview-package",
+    "description": "Create view by commande artisan in Laravel",
     "keywords": [
-        ":vendor_name",
+        "katana9108",
         "laravel",
-        ":package_slug"
+        "createview-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/katana9108/createview-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "JeyCodeur",
+            "email": "jeffrygayvynnsomeminko@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Katana9108\\CreateViewPackage\\": "src",
+            "Katana9108\\CreateViewPackage\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Katana9108\\CreateViewPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Katana9108\\CreateViewPackage\\CreateViewPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "CreateViewPackage": "Katana9108\\CreateViewPackage\\Facades\\CreateViewPackage"
             }
         }
     },
