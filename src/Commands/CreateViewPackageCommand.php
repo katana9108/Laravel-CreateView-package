@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\File;
 
 class CreateViewPackageCommand extends Command
 {
-    public $signature = 'katana9108:create-view {viewName}';
+    public $signature = 'k:v {viewName}';
 
     public $description = 'Create and new view';
 

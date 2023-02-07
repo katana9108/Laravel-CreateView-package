@@ -40,7 +40,7 @@ return [
 ## Usage
 
 ```
-To create a view run : php artisan katana9108:create-view {viewname}                   
+To create a view run : php artisan k:v {viewname}                   
 ```
 
 
